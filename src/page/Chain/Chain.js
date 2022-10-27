@@ -19,11 +19,22 @@ const Chain = () =>{
                     <div className='mt-[120px] mb-[60px] text-[40px]  text-slate-300'>Select Chain</div>
                     <div className='mx-auto w-[680px]'>
                         <div className='grid grid-cols-4'>
-                            {numberspicture.map((item, index) =>
+                            <div  className='mb-[30px]'>
+                             <img src={require(`../../image/image_1.png`)}  className='' alt='chain'/>
+                             <img src={require(`../../image/image_2.png`)}  className='' alt='chain'/>
+                             <img src={require(`../../image/image_3.png`)}  className='' alt='chain'/>
+                             <img src={require(`../../image/image_4.png`)}  className='' alt='chain'/>
+                             <img src={require(`../../image/image_5.png`)}  className='' alt='chain'/>
+                             <img src={require(`../../image/image_6.png`)}  className='' alt='chain'/>
+                             <img src={require(`../../image/image_7.png`)}  className='' alt='chain'/>
+                             <img src={require(`../../image/image_8.png`)}  className='' alt='chain'/>
+                             <img src={require(`../../image/image_9.png`)}  className='' alt='chain'/>
+                            </div>
+                            {/* {numberspicture.map((item, index) =>
                             <div  className='mb-[30px]'>
                              <img src={require(`../../image/image_${index+1}.png`)}  className='' alt='chain'/>
                             </div>
-                            )}
+                            )} */}
                         </div>
                         <div>
                             <div className ="mt-[30px] text-slate-700 flex justify-end text-[24px]"><Link to="/Resume">Next ></Link></div>
